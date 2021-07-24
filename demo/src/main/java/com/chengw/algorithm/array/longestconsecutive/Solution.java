@@ -1,4 +1,4 @@
-package com.chengw.algorithm.nokind.longestconsecutive;
+package com.chengw.algorithm.array.longestconsecutive;
 
 import java.util.*;
 

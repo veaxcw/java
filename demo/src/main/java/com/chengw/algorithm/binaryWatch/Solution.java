@@ -25,7 +25,7 @@ import java.util.List;
  *
  * @author chengw
  */
-public class Solution {
+public class  Solution {
 
     byte[] bytes = new byte[10];
 

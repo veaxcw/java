@@ -8,6 +8,7 @@ import org.openjdk.jol.info.ClassLayout;
  */
 public class LockUpgrade {
 
+
     public static void main(String[] args) throws NoSuchFieldException, InterruptedException {
         System.out.println("无锁：" + ClassLayout.parseInstance(new Object()).toPrintable());
 
@@ -17,6 +18,7 @@ public class LockUpgrade {
 
         Thread thread = new Thread(() -> {
             synchronized (object) {
+
                 System.out.println(ClassLayout.parseInstance(object).toPrintable());
             }
         });

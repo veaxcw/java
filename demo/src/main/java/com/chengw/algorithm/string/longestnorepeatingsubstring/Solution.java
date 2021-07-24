@@ -1,4 +1,4 @@
-package com.chengw.algorithm.longestSubstringWithoutRepeatingCharacters;
+package com.chengw.algorithm.string.longestnorepeatingsubstring;
 
 
 import java.util.HashSet;

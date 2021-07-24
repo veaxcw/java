@@ -33,7 +33,7 @@ package com.chengw.algorithm.regex;
  * 输出: true
  * 解释: ".*" 表示可匹配零个或多个('*')任意字符('.')。
  * **/
-public class Solution {
+public class        Solution {
 
     public static boolean isMatch(String s, String p) {
 

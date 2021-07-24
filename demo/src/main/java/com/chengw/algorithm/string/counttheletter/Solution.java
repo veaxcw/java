@@ -1,4 +1,4 @@
-package com.chengw.algorithm.counttheletter;
+package com.chengw.algorithm.string.counttheletter;
 
 import java.util.Scanner;
 

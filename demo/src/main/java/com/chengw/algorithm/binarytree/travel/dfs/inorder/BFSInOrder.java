@@ -1,4 +1,4 @@
-package com.chengw.algorithm.binarytree.travel.dfs.preorder;
+package com.chengw.algorithm.binarytree.travel.dfs.inorder;
 
 import com.chengw.algorithm.binarytree.common.TreeNode;
 import com.chengw.algorithm.binarytree.travel.Travel;
@@ -8,7 +8,7 @@ import com.chengw.algorithm.binarytree.travel.Travel;
  *
  * @author chengwei
  */
-public class BFSPreOrder implements Travel {
+public class BFSInOrder implements Travel {
 
     @Override
     public void travel(TreeNode root) {
@@ -16,8 +16,8 @@ public class BFSPreOrder implements Travel {
         if (root == null) {
             return;
         }
-        System.out.print(root.val + " ");
         travel(root.left);
+        System.out.print(root.val + " ");
         travel(root.right);
     }
 

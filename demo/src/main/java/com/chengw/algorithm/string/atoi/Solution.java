@@ -1,4 +1,4 @@
-package com.chengw.algorithm.atoi;
+package com.chengw.algorithm.string.atoi;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

@@ -1,4 +1,12 @@
 package com.chengw.classloading;
 
-public class SubClass {
+/**
+ * @author chengwei
+ */
+public class SubClass extends SuperClass {
+
+    static {
+        System.out.println("sub class init");
+    }
+
 }

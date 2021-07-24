@@ -1,8 +1,5 @@
-package com.chengw.algorithm.tinyurl;
+package com.chengw.algorithm.string.tinyurl;
 
-import java.nio.ByteBuffer;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.Base64;
 
 /**

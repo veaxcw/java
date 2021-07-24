@@ -1,4 +1,4 @@
-package com.chengw.algorithm.binarytree.travel.dfs.postorder;
+package com.chengw.algorithm.binarytree.travel.dfs.preorder;
 
 import com.chengw.algorithm.binarytree.common.TreeNode;
 import com.chengw.algorithm.binarytree.travel.Travel;

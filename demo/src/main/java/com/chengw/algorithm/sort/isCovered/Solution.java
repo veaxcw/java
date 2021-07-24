@@ -1,4 +1,4 @@
-package com.chengw.algorithm.nokind.isCovered;
+package com.chengw.algorithm.sort.isCovered;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package com.chengw.algorithm.doublePointer.containerWithMostWater;
+package com.chengw.algorithm.doublepointer.containerWithMostWater;
 
 
 /****

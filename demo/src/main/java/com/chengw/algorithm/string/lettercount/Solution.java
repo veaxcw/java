@@ -1,4 +1,4 @@
-package com.chengw.algorithm.lettercount;
+package com.chengw.algorithm.string.lettercount;
 
 import java.util.*;
 import java.util.stream.Collectors;
